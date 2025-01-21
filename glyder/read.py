@@ -26,6 +26,10 @@ def read_goto(filename: str) -> pd.DataFrame:
         elif line.strip() == "<start:waypoints>":
             break
     waypoints = data[i + 1 : i + 1 + num_waypoints]
+    if num_waypoints > len(waypoints):
+        raise Exception(
+            "There are fewer waypoints in the list than indicated by num_waypoints."
+        )
     waypoints = np.array([wp.split("#")[0].split() for wp in waypoints])
     route = pd.DataFrame(
         {"longitude_text": waypoints[:, 0], "latitude_text": waypoints[:, 1]}
