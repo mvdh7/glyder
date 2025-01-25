@@ -1,7 +1,60 @@
 import warnings
+from collections import namedtuple
 
 import numpy as np
 import pandas as pd
+import regex as re
+
+MasterdataDefaults = namedtuple(
+    "MasterdataDefaults",
+    ("sensors", "sensor_units", "behaviors", "behavior_units"),
+)
+
+
+def _reformat_value(unit, value):
+    if unit == "bool":
+        value = bool(value)
+    elif unit == "int":
+        value = int(value)
+    else:
+        if value == "":
+            value = None
+        else:
+            value = float(value)
+    return value
+
+
+def read_masterdata(filename="data/masterdata_v11_01"):
+    # Read defaults from masterdata
+    with open(filename, "r") as f:
+        data = f.readlines()
+    sensors = {}
+    sensor_units = {}
+    behaviors = {}
+    behavior_units = {}
+    re_sensor = re.compile(r"^sensor: (\w*)\((\w*)\)\s*(\S*)")
+    re_behavior = re.compile(r"^behavior:\s*(\w*)")
+    re_b_arg = re.compile(r"b_arg: (\w*)\((\w*)\)\s*(\S*)")
+    for line in data:
+        linespl = line.split("#")[0]
+        re_sensor_match = re_sensor.findall(linespl)
+        re_behavior_match = re_behavior.findall(linespl)
+        re_b_arg_match = re_b_arg.findall(linespl)
+        if len(re_sensor_match) > 0:
+            key, unit, value = re_sensor_match[0]
+            value = _reformat_value(unit, value)
+            sensors[key] = value
+            sensor_units[key] = unit
+        elif len(re_behavior_match) > 0:
+            behavior = re_behavior_match[0]
+            behaviors[behavior] = bb = {}
+            behavior_units[behavior] = bub = {}
+        elif len(re_b_arg_match) > 0:
+            key, unit, value = re_b_arg_match[0]
+            value = _reformat_value(unit, value)
+            bb[key] = value
+            bub[key] = unit
+    return MasterdataDefaults(sensors, sensor_units, behaviors, behavior_units)
 
 
 def read_goto(filename: str) -> pd.DataFrame:
@@ -21,7 +74,7 @@ def read_goto(filename: str) -> pd.DataFrame:
         data = f.readlines()
     for i, line in enumerate(data):
         wpline = "b_arg: num_waypoints(nodim)"
-        if line.lstrip().startswith("b_arg: num_waypoints(nodim)"):
+        if line.lstrip().startswith(wpline):
             num_waypoints = int(line.lstrip().split(wpline)[1].split("#")[0])
         elif line.strip() == "<start:waypoints>":
             break
