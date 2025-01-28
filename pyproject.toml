@@ -5,7 +5,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Glyder"
+name = "glyder"
 description = "Glider piloting tools"
 readme = "README.md"
 classifiers =[
