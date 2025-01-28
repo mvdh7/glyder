@@ -250,5 +250,6 @@ def read_logs(filepath: str) -> pd.DataFrame:
         sd["filename"] = filename.split(os.sep)[-1]
         if len(sd) > 0:
             dfs.append(sd)
-    dfs = pd.concat(dfs).sort_values("mission_datetime").reset_index(drop=True)
+    dfs = pd.concat(dfs).sort_values("mission_datetime")
+    dfs = dfs[dfs.glider.notnull()].reset_index(drop=True)
     return dfs
