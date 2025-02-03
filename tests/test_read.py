@@ -37,3 +37,6 @@ def test_logs():
     filepath = "tests/data/logs"
     logs = glyder.read_logs(filepath)
     assert isinstance(logs, pd.DataFrame)
+
+
+masterdata = glyder.read_masterdata()

@@ -26,7 +26,9 @@ def _reformat_value(unit, value):
     return value
 
 
-def read_masterdata(filename="data/masterdata_v11_01"):
+def read_masterdata(filename=None):
+    if filename is None:
+        filename = os.sep.join((os.path.dirname(__file__), "data", "masterdata_v11_01"))
     # Read defaults from masterdata
     with open(filename, "r") as f:
         data = f.readlines()
@@ -120,7 +122,7 @@ def read_log(filename: str) -> pd.DataFrame:
         r"^MissionName:(\w*\.mi) MissionNum:([\w-]*) \(([\w\.]*)\)$"
     )
     re_currtime = re.compile(
-        r"^Curr Time: (\w{3} \w{3} \w{2} \d{2}:\d{2}:\d{2} \d{4}) MT:\s*(\d*)$"
+        r"^Curr Time: (\w{3} \w{3} \w{1,2} \d{2}:\d{2}:\d{2} \d{4}) MT:\s*(\d*)$"
     )
     re_gps = re.compile(
         r"^GPS Location:\s*([\d\.]*) (\w)\s*([\d\.]*) (\w) measured\s*([\d\.]*) secs ago$"
