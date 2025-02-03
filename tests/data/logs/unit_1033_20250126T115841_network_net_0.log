@@ -1,0 +1,337 @@
+Connection Event: Carrier Detect found.280554    Iridium console active and ready...
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 11:58:25 2025 MT:  280554
+DR  Location:  6124.806 N   231.474 E measured     40.574 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6127.560 N   228.058 E measured    119.646 secs ago
+GPS Location:  6124.806 N   231.474 E measured     40.737 secs ago
+   sensor:c_autoballast_state(enum)=2             184.771 secs ago
+   sensor:c_climb_bpump(X)=136.25                 184.775 secs ago
+   sensor:c_dive_bpump(X)=-203.75                 184.779 secs ago
+   sensor:c_wpt_lat(lat)=6115                     69948.8 secs ago
+   sensor:c_wpt_lon(lon)=245                      69948.8 secs ago
+   sensor:m_avg_speed(m/s)=0.260643705720638      132.746 secs ago
+   sensor:m_battery(volts)=15.056532205114         11.683 secs ago
+   sensor:m_bms_aft_current(amp)=0.102188           3.909 secs ago
+   sensor:m_bms_ebay_current(amp)=0.09875            3.94 secs ago
+   sensor:m_bms_pitch_current(amp)=0.10875          3.972 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=62.3035999999999        3.829 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=68.1385639999994        3.833 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        0.069 secs ago
+   sensor:m_final_water_vx(m/s)=-0.000539945181913       44.645 secs ago
+   sensor:m_final_water_vy(m/s)=-0.134657461240218       44.649 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        20.07 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4998778998779       19.672 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.49752747252747       19.636 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.49569597069597       19.601 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.2977568326948        3.867 secs ago
+   sensor:m_surf_water_vx(m/s)=0.042754796748192       44.676 secs ago
+   sensor:m_surf_water_vy(m/s)=0.006712570034568        44.68 secs ago
+   sensor:m_tot_num_inflections(nodim)=839        128.815 secs ago
+   sensor:m_vacuum(inHg)=9.12369472527472          11.702 secs ago
+   sensor:m_water_vx(m/s)=-0.000539945181913       44.691 secs ago
+   sensor:m_water_vy(m/s)=-0.134657461240218       44.695 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                   163534 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49               69949 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01                69949 secs ago
+280554    No login script found for processing.
+
+
+
+
+Glider unit_1033 at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:ew33.mi MissionNum:unit_1033-2025-022-0-35 (0103.0035)
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 11:58:45 2025 MT:  280575
+DR  Location:  6124.806 N   231.474 E measured     61.185 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6127.560 N   228.058 E measured    140.257 secs ago
+GPS Location:  6124.806 N   231.474 E measured     61.348 secs ago
+   sensor:c_autoballast_state(enum)=2             205.382 secs ago
+   sensor:c_climb_bpump(X)=136.25                 205.386 secs ago
+   sensor:c_dive_bpump(X)=-203.75                  205.39 secs ago
+   sensor:c_wpt_lat(lat)=6115                     69969.5 secs ago
+   sensor:c_wpt_lon(lon)=245                      69969.5 secs ago
+   sensor:m_avg_speed(m/s)=0.260643705720638      153.357 secs ago
+   sensor:m_battery(volts)=15.056532205114         32.294 secs ago
+   sensor:m_bms_aft_current(amp)=0.2025             3.423 secs ago
+   sensor:m_bms_ebay_current(amp)=0.15156           3.454 secs ago
+   sensor:m_bms_pitch_current(amp)=0.138748         3.486 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=62.3060959999999        3.343 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=68.1410599999994        3.347 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        3.571 secs ago
+   sensor:m_final_water_vx(m/s)=-0.000539945181913       65.256 secs ago
+   sensor:m_final_water_vy(m/s)=-0.134657461240218        65.26 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       40.681 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4998778998779       40.283 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.49752747252747       40.247 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.49569597069597       40.212 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.2974380587485        3.381 secs ago
+   sensor:m_surf_water_vx(m/s)=0.042754796748192       65.287 secs ago
+   sensor:m_surf_water_vy(m/s)=0.006712570034568       65.291 secs ago
+   sensor:m_tot_num_inflections(nodim)=839        149.426 secs ago
+   sensor:m_vacuum(inHg)=9.12369472527472          32.313 secs ago
+   sensor:m_water_vx(m/s)=-0.000539945181913       65.302 secs ago
+   sensor:m_water_vy(m/s)=-0.134657461240218       65.305 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                   163555 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49             69969.6 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01              69969.6 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  34/   6/   0 odd: 281/  76/   4
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (6115.0000,245.0000) Range: 21840m, Bearing: 149deg, Age: 19:26h:m
+Time until diving is: 235 secs
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.0579 C_FIN:0.0000
+
+
+
+
+Glider unit_1033 at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:ew33.mi MissionNum:unit_1033-2025-022-0-35 (0103.0035)
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 11:59:45 2025 MT:  280635
+DR  Location:  6124.806 N   231.474 E measured    121.268 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6127.560 N   228.058 E measured     200.34 secs ago
+GPS Location:  6124.806 N   231.474 E measured    121.431 secs ago
+   sensor:c_autoballast_state(enum)=2             265.465 secs ago
+   sensor:c_climb_bpump(X)=136.25                 265.469 secs ago
+   sensor:c_dive_bpump(X)=-203.75                 265.473 secs ago
+   sensor:c_wpt_lat(lat)=6115                     70029.5 secs ago
+   sensor:c_wpt_lon(lon)=245                      70029.5 secs ago
+   sensor:m_avg_speed(m/s)=0.260643705720638       213.44 secs ago
+   sensor:m_battery(volts)=15.0479104864341        31.246 secs ago
+   sensor:m_bms_aft_current(amp)=0.101876           3.281 secs ago
+   sensor:m_bms_ebay_current(amp)=0.086564          3.313 secs ago
+   sensor:m_bms_pitch_current(amp)=0.086874         3.345 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=62.3111039999999        3.202 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=68.1460679999995        3.206 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023         7.57 secs ago
+   sensor:m_final_water_vx(m/s)=-0.000539945181913      125.339 secs ago
+   sensor:m_final_water_vy(m/s)=-0.134657461240218      125.343 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      100.764 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496948       39.284 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.49810744810745       39.248 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.49639804639805       39.213 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.296798467433         3.24 secs ago
+   sensor:m_surf_water_vx(m/s)=0.042754796748192       125.37 secs ago
+   sensor:m_surf_water_vy(m/s)=0.006712570034568      125.374 secs ago
+   sensor:m_tot_num_inflections(nodim)=839        209.509 secs ago
+   sensor:m_vacuum(inHg)=9.12369472527472          92.396 secs ago
+   sensor:m_water_vx(m/s)=-0.000539945181913      125.385 secs ago
+   sensor:m_water_vy(m/s)=-0.134657461240218      125.388 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                   163615 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49             70029.6 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01              70029.7 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  34/   6/   0 odd: 281/  76/   4
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (6115.0000,245.0000) Range: 21840m, Bearing: 149deg, Age: 19:27h:m
+Time until diving is: 175 secs
+
+
+
+
+Glider unit_1033 at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:ew33.mi MissionNum:unit_1033-2025-022-0-35 (0103.0035)
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 12:00:49 2025 MT:  280698
+DR  Location:  6124.806 N   231.474 E measured    184.768 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6127.560 N   228.058 E measured     263.84 secs ago
+GPS Location:  6124.806 N   231.474 E measured    184.931 secs ago
+   sensor:c_autoballast_state(enum)=2             328.965 secs ago
+   sensor:c_climb_bpump(X)=136.25                 328.969 secs ago
+   sensor:c_dive_bpump(X)=-203.75                 328.973 secs ago
+   sensor:c_wpt_lat(lat)=6115                       70093 secs ago
+   sensor:c_wpt_lon(lon)=245                        70093 secs ago
+   sensor:m_avg_speed(m/s)=0.260643705720638       276.94 secs ago
+   sensor:m_battery(volts)=15.0303731618444        31.187 secs ago
+   sensor:m_bms_aft_current(amp)=0.096874           3.424 secs ago
+   sensor:m_bms_ebay_current(amp)=0.084376          3.456 secs ago
+   sensor:m_bms_pitch_current(amp)=0.083436         3.488 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=62.3173599999999        3.345 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=68.1523239999995        3.349 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        3.573 secs ago
+   sensor:m_final_water_vx(m/s)=-0.000539945181913      188.839 secs ago
+   sensor:m_final_water_vy(m/s)=-0.134657461240218      188.843 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      164.264 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49993894993895       39.277 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.49819902319902       39.241 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.49648962148962       39.206 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.2959994891444        3.383 secs ago
+   sensor:m_surf_water_vx(m/s)=0.042754796748192       188.87 secs ago
+   sensor:m_surf_water_vy(m/s)=0.006712570034568      188.874 secs ago
+   sensor:m_tot_num_inflections(nodim)=839        273.009 secs ago
+   sensor:m_vacuum(inHg)=9.2666621978022           31.206 secs ago
+   sensor:m_water_vx(m/s)=-0.000539945181913      188.885 secs ago
+   sensor:m_water_vy(m/s)=-0.134657461240218      188.888 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                   163678 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49             70093.1 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01              70093.2 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  34/   6/   0 odd: 281/  76/   4
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (6115.0000,245.0000) Range: 21840m, Bearing: 149deg, Age: 19:28h:m
+Time until diving is: 111 secs
+
+
+
+
+Glider unit_1033 at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:ew33.mi MissionNum:unit_1033-2025-022-0-35 (0103.0035)
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 12:01:51 2025 MT:  280760
+DR  Location:  6124.806 N   231.474 E measured    246.502 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6127.560 N   228.058 E measured    325.574 secs ago
+GPS Location:  6124.806 N   231.474 E measured    246.665 secs ago
+   sensor:c_autoballast_state(enum)=2             390.699 secs ago
+   sensor:c_climb_bpump(X)=136.25                 390.703 secs ago
+   sensor:c_dive_bpump(X)=-203.75                 390.707 secs ago
+   sensor:c_wpt_lat(lat)=6115                     70154.8 secs ago
+   sensor:c_wpt_lon(lon)=245                      70154.8 secs ago
+   sensor:m_avg_speed(m/s)=0.260643705720638      338.674 secs ago
+   sensor:m_battery(volts)=15.0222613645855        28.972 secs ago
+   sensor:m_bms_aft_current(amp)=0.1                3.415 secs ago
+   sensor:m_bms_ebay_current(amp)=0.084376          3.446 secs ago
+   sensor:m_bms_pitch_current(amp)=0.084062         3.478 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=62.3236159999999        3.335 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=68.1585799999995        3.339 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        7.572 secs ago
+   sensor:m_final_water_vx(m/s)=-0.000539945181913      250.573 secs ago
+   sensor:m_final_water_vy(m/s)=-0.134657461240218      250.577 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      225.998 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49990842490842       37.009 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.49819902319902       36.973 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.49655067155067       36.938 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.2952005108558        3.373 secs ago
+   sensor:m_surf_water_vx(m/s)=0.042754796748192      250.604 secs ago
+   sensor:m_surf_water_vy(m/s)=0.006712570034568      250.608 secs ago
+   sensor:m_tot_num_inflections(nodim)=839        334.743 secs ago
+   sensor:m_vacuum(inHg)=9.2666621978022            92.94 secs ago
+   sensor:m_water_vx(m/s)=-0.000539945181913      250.619 secs ago
+   sensor:m_water_vy(m/s)=-0.134657461240218      250.623 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                    16374 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49             70154.9 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01              70154.9 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  34/   6/   0 odd: 281/  76/   4
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (6115.0000,245.0000) Range: 21840m, Bearing: 149deg, Age: 19:29h:m
+Time until diving is: 49 secs
+280812 62 01030035.mcg LOG FILE CLOSED
+Doing system wide housekeeping.......
+report_heap_size(): M_FREE_HEAP=277.0K(283620 bytes)
+                    M_MIN_FREE_HEAP=195.1K(199828 bytes)
+                    M_SRAM_FREE_HEAP=2313.5K(2369040 bytes)
+                    M_SRAM_MIN_FREE_HEAP=2185.5K(2237928 bytes)
+Running algorithm to free disk space if required
+Not necessary to delete any files at this time
+Scanning free space...
+Megabytes used      on c: = 112.703125
+Megabytes available on c: = 7762.296875
+Megabytes used      on w: = 0.021973
+Megabytes available on w: = 0.978027
+Writing longterm state disk file: c:/state/longterm.sta
+   f_ocean_pressure_min(volts) 0.092640
+   m_avg_climb_rate(m/s) -0.156163
+   m_avg_speed(m/s) 0.260644
+   m_avg_upward_inflection_time(sec) 78.986506
+   m_battery(volts) 15.014230
+   m_coulomb_amphr_total(amp-hrs) 68.163556
+   m_coulomb_watt_hr_total(watt-hrs) 995.754612
+   m_iridium_call_num(nodim) 338.000000
+   m_iridium_dialed_num(nodim) 794.000000
+   m_lat(lat) 6124.805800
+   m_lon(lon) 231.473700
+   m_pump_effective_num_cycles(nodim) 420.000000
+   m_tot_ballast_pumped_energy(kjoules) 0.000000
+   m_tot_horz_dist(km) 529.747029
+   m_tot_num_inflections(nodim) 839.000000
+   m_tot_num_thermal_valve_cmd(nodim) 1084.000000
+   m_weight_drop(bool) 0.000000
+   s_water_depth_avg(m) 300.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 34.822336
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 3.349265
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 6134.490000
+   x_last_wpt_lon(lon) 217.010000
+Housekeeping is done
+280825 64 01030036.mcg LOG FILE OPENED
+280825    init_gps_input()
+280825    behavior surface_4: SUBSTATE 7 ->10 : Waiting for final gps fix
+280825    behavior surface_4: TIMED OUT WAITING FOR A CHARACTER
+
+surface_4: Waiting for final GPS fix.
+280825    disabling Iridium console...

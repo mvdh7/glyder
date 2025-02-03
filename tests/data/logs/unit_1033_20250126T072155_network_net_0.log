@@ -1,0 +1,395 @@
+Connection Event: Carrier Detect found.263958    Iridium console active and ready...
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 07:21:40 2025 MT:  263958
+DR  Location:  6127.509 N   228.117 E measured     40.584 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6129.260 N   224.059 E measured    115.648 secs ago
+GPS Location:  6127.509 N   228.117 E measured     40.692 secs ago
+   sensor:c_autoballast_state(enum)=2             172.947 secs ago
+   sensor:c_climb_bpump(X)=136.25                 172.951 secs ago
+   sensor:c_dive_bpump(X)=-203.75                 172.955 secs ago
+   sensor:c_wpt_lat(lat)=6115                     53353.4 secs ago
+   sensor:c_wpt_lon(lon)=245                      53353.4 secs ago
+   sensor:m_avg_speed(m/s)=0.263457594258727       120.64 secs ago
+   sensor:m_battery(volts)=15.0642643455672        59.765 secs ago
+   sensor:m_bms_aft_current(amp)=0.127186           3.928 secs ago
+   sensor:m_bms_ebay_current(amp)=0.127498          3.959 secs ago
+   sensor:m_bms_pitch_current(amp)=0.126564         3.991 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=61.3736160000008        3.848 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=67.2085799999988        3.852 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        4.077 secs ago
+   sensor:m_final_water_vx(m/s)=-0.009871313501054       44.656 secs ago
+   sensor:m_final_water_vy(m/s)=-0.093245422226446        44.66 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       24.079 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496948       27.792 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.49798534798535       27.756 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.49630647130647       27.721 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.4165287356323        3.886 secs ago
+   sensor:m_surf_water_vx(m/s)=-0.186994177973086       44.686 secs ago
+   sensor:m_surf_water_vy(m/s)=0.255425405239057        44.69 secs ago
+   sensor:m_tot_num_inflections(nodim)=833        116.708 secs ago
+   sensor:m_vacuum(inHg)=8.05210989010989         123.786 secs ago
+   sensor:m_water_vx(m/s)=-0.009871313501054       44.702 secs ago
+   sensor:m_water_vy(m/s)=-0.093245422226446       44.706 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                   146939 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49             53353.5 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01              53353.5 secs ago
+263958    No login script found for processing.
+
+
+
+
+Glider unit_1033 at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:ew33.mi MissionNum:unit_1033-2025-022-0-33 (0103.0033)
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 07:22:01 2025 MT:  263979
+DR  Location:  6127.509 N   228.117 E measured     61.194 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6129.260 N   224.059 E measured    136.258 secs ago
+GPS Location:  6127.509 N   228.117 E measured     61.302 secs ago
+   sensor:c_autoballast_state(enum)=2             193.557 secs ago
+   sensor:c_climb_bpump(X)=136.25                 193.561 secs ago
+   sensor:c_dive_bpump(X)=-203.75                 193.565 secs ago
+   sensor:c_wpt_lat(lat)=6115                       53374 secs ago
+   sensor:c_wpt_lon(lon)=245                        53374 secs ago
+   sensor:m_avg_speed(m/s)=0.263457594258727       141.25 secs ago
+   sensor:m_battery(volts)=15.0481646509372        16.365 secs ago
+   sensor:m_bms_aft_current(amp)=0.20906            3.411 secs ago
+   sensor:m_bms_ebay_current(amp)=0.167812          3.442 secs ago
+   sensor:m_bms_pitch_current(amp)=0.160312         3.474 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=61.3773600000008        3.331 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=67.2123239999988        3.335 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        8.689 secs ago
+   sensor:m_final_water_vx(m/s)=-0.009871313501054       65.266 secs ago
+   sensor:m_final_water_vy(m/s)=-0.093245422226446        65.27 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       44.689 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.49996947496948       48.402 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.49798534798535       48.366 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.49630647130647       48.331 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.4160505747128        3.369 secs ago
+   sensor:m_surf_water_vx(m/s)=-0.186994177973086       65.296 secs ago
+   sensor:m_surf_water_vy(m/s)=0.255425405239057         65.3 secs ago
+   sensor:m_tot_num_inflections(nodim)=833        137.318 secs ago
+   sensor:m_vacuum(inHg)=9.10221604395604          20.212 secs ago
+   sensor:m_water_vx(m/s)=-0.009871313501054       65.312 secs ago
+   sensor:m_water_vy(m/s)=-0.093245422226446       65.316 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                   146959 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49             53374.1 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01              53374.1 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  34/   6/   1 odd: 277/  72/   4
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (6115.0000,245.0000) Range: 27673m, Bearing: 149deg, Age: 14:49h:m
+Time until diving is: 235 secs
+s *.sbd *.tbd *.scd *.tcd -num=3
+
+--------------------------------
+264015 86 01030033.mcg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+264024 89 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000
+Starting zModem transfer of 01030033.tcd to/from unit_1033 size is 8208
+Total Bytes sent/received: 1024
+Total Bytes sent/received: 2048
+Total Bytes sent/received: 3072
+Total Bytes sent/received: 4096
+Total Bytes sent/received: 5120
+Total Bytes sent/received: 6144
+Total Bytes sent/received: 7168
+Total Bytes sent/received: 8192
+Total Bytes sent/received: 8208
+zModem transfer DONE for file 01030033.tcd
+
+Starting zModem transfer of 01030032.tcd to/from unit_1033 size is 363
+Total Bytes sent/received: 363
+zModem transfer DONE for file 01030032.tcd
+.
+SCI: Sent 2 file(s):
+01030033.tcd  01030032.tcd
+SCI: SUCCESS
+264092  5 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+264095    GLD: Enumerating and selecting files
+About to send 2 files
+Prechecking is not necessary for this invocation
+selected IRIDIUM
+264095    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+264095    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000
+Starting zModem transfer of 01030033.scd to/from unit_1033 size is 3212
+Total Bytes sent/received: 1024
+Total Bytes sent/received: 2048
+Total Bytes sent/received: 3072
+Total Bytes sent/received: 3212
+zModem transfer DONE for file 01030033.scd
+
+Starting zModem transfer of 01030032.scd to/from unit_1033 size is 598
+Total Bytes sent/received: 598
+zModem transfer DONE for file 01030032.scd
+264132    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+264132    restore_sensors()....
+264132    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+
+SHUFFLING FILES ..
+264133    GLD: Sent 2 file(s):
+01030033.scd  01030032.scd
+GLD: SUCCESS
+Glider-Science software version match: 311349.100000
+Science hardware version is 3.000000
+264135  6 SCI:PROGLET house_elf begin() called
+264135    SCI:   house_elf: Version 1.2
+264135    SCI:PROGLET rbrctd begin() called
+264135    SCI:PROGLET oxy4 begin() called
+264135    SCI:   oxy4: Version 0.0
+264135    SCI:     oxy4:  Will be sending following data to glider:
+264135    SCI:           sci_oxy4_oxygen(um)
+264135    SCI:           sci_oxy4_saturation(%)
+264135    SCI:           sci_oxy4_temp(degc)
+264135    SCI:           sci_oxy4_calphase(deg)
+264135    SCI:           sci_oxy4_tcphase(deg)
+264135    SCI:           sci_oxy4_c1rph(deg)
+264135    SCI:           sci_oxy4_c2rph(deg)
+264135    SCI:           sci_oxy4_c1amp(mv)
+264135    SCI:           sci_oxy4_c2amp(mv)
+264135    SCI:           sci_oxy4_rawtemp(mv)
+264135    SCI:           sci_oxy4_timestamp(timestamp)
+264135    SCI:Bit(2) raise count is now 0.
+264135    SCI:Bit(2) raise count is now 0.
+264135    SCI:PROGLET flbbcd begin() called
+264135    SCI:   flbbcd: Version 0.0
+264135    SCI:     flbbcd:  Will be sending following data to glider:
+264135    SCI:           sci_flbbcd_chlor_units(ug/l)
+264135    SCI:           sci_flbbcd_bb_units(nodim)
+264135    SCI:           sci_flbbcd_cdom_units(ppb)
+264135    SCI:           sci_flbbcd_chlor_sig(nodim)
+264135    SCI:           sci_flbbcd_bb_sig(nodim)
+264135    SCI:           sci_flbbcd_cdom_sig(nodim)
+264135    SCI:           sci_flbbcd_chlor_ref(nodim)
+264135    SCI:           sci_flbbcd_bb_ref(nodim)
+264135    SCI:           sci_flbbcd_cdom_ref(nodim)
+264135    SCI:           sci_flbbcd_therm(nodim)
+264135    SCI:           sci_flbbcd_timestamp(timestamp)
+264135    SCI:Bit(0) raise count is now 0.
+264135    SCI:Bit(0) raise count is now 0.
+264135    SCI:PROGLET badd_mmp begin() called
+264135    SCI:  badd_mmp: Version 0.1
+264135    SCI:     badd_mmp:  Will be sending the following data to glider:
+264135    SCI:          sci_badd_mmp_is_installed(bool)
+264135    SCI:          sci_badd_power_on(bool)
+264135    SCI:          sci_badd_retrieved_bytes(nodim)
+264135    SCI:          sci_badd_error_rate(%)
+264135    SCI:          sci_badd_n_tries_to_connect(nodim)
+264135    SCI:          sci_badd_target_range(m)
+264135    SCI:          sci_badd_finished(bool)
+264135    SCI:          sci_wants_surface(enum)
+264135    SCI:PROGLET house_elf start() called
+264135    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+264135    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+264154  9 01030034.mcg LOG FILE OPENED
+
+--------------------------------
+264154    behavior surface_4: SUBSTATE 7 ->7 : After data transmission, waiting for control-C to exit/resume
+
+
+
+
+Glider unit_1033 at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:ew33.mi MissionNum:unit_1033-2025-022-0-34 (0103.0034)
+Vehicle Name: unit_1033
+Curr Time: Sun Jan 26 07:24:57 2025 MT:  264155
+DR  Location:  6127.509 N   228.117 E measured    237.035 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6129.260 N   224.059 E measured    312.099 secs ago
+GPS Location:  6127.509 N   228.117 E measured    237.143 secs ago
+   sensor:c_autoballast_state(enum)=2             369.398 secs ago
+   sensor:c_climb_bpump(X)=136.25                 369.402 secs ago
+   sensor:c_dive_bpump(X)=-203.75                 369.406 secs ago
+   sensor:c_wpt_lat(lat)=6115                     53549.9 secs ago
+   sensor:c_wpt_lon(lon)=245                      53549.9 secs ago
+   sensor:m_avg_speed(m/s)=0.263457594258727      317.091 secs ago
+   sensor:m_battery(volts)=15.0313540466493         0.329 secs ago
+   sensor:m_bms_aft_current(amp)=0.115626           0.555 secs ago
+   sensor:m_bms_ebay_current(amp)=0.087812          0.587 secs ago
+   sensor:m_bms_pitch_current(amp)=0.089374         0.619 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=61.3973440000008        0.476 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=67.2323079999988         0.48 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        0.704 secs ago
+   sensor:m_final_water_vx(m/s)=-0.009871313501054      241.107 secs ago
+   sensor:m_final_water_vy(m/s)=-0.093245422226446      241.111 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       220.53 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4995115995116        0.228 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.4974358974359        0.192 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.4956043956044        0.157 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=91.4134983397192        0.513 secs ago
+   sensor:m_surf_water_vx(m/s)=-0.186994177973086      241.137 secs ago
+   sensor:m_surf_water_vy(m/s)=0.255425405239057      241.141 secs ago
+   sensor:m_tot_num_inflections(nodim)=833        313.159 secs ago
+   sensor:m_vacuum(inHg)=9.27136065934066           0.348 secs ago
+   sensor:m_water_vx(m/s)=-0.009871313501054      241.152 secs ago
+   sensor:m_water_vy(m/s)=-0.093245422226446      241.156 secs ago
+   sensor:m_why_started(enum)=6                    1e+308 secs ago
+   sensor:u_alt_min_depth(m)=200                   147135 secs ago
+   sensor:u_low_power_cycle_time(sec)=-1           1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=2        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6134.49               53550 secs ago
+   sensor:x_last_wpt_lon(lon)=217.01                53550 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  34/   6/   1 odd: 277/  72/   4
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (6115.0000,245.0000) Range: 27673m, Bearing: 149deg, Age: 14:52h:m
+Time until diving is: 299 secs
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.0724 C_FIN:0.0000
+^W             name in ALLCAPS means CRITICAL device (* => SUPERCRITICAL)
+                  [I Installed] [- Not_Installed]
+                    [u In_use] [- Not_In_use] [X Out_of_Service]
+             name       limits     stats (#total/#mission/#segment)
+                        os w/s w/m os       errors      warnings      oddities
+ 0        simdrvr  -
+ 1    test_driver  -
+ 2          ARGOS* I u  -1  20   5  0
+ 3       WATCHDOG  I u  -1  -1  -1  0
+ 4        DEADMAN  I u  -1  20   5  0
+ 5        CONSOLE* I u  -1  20   5  0
+ 6            GPS  I u  -1  20   5  0 [   0   0  0] [   6   1  0] [   0   0  0]
+ 7   attitude_rev  I u   3  20   5  0
+ 8 ocean_pressure  I u   3  20   5  0
+ 9         vacuum  I u   3  20   5  0
+10        battery  I u   3  20   5  0
+11       air_pump  I u   3  20   5  0
+12    pitch_motor  I u   3  20   5  0 [   0   0  0] [   0   0  0] [   1   1  0]
+13  science_super  I u   3  20   5  0 [   0   0  0] [   0   0  0] [   2   0  0]
+14        digifin  I u   3  20   5  0 [   0   0  0] [  28   5  1] [ 227  62  4]
+15      altimeter  -
+16  altimeter_232  I u   3  20   5  0
+17        IRIDIUM* I u  -1  20   5  0 [   0   0  0] [   0   0  0] [  34   8  0]
+18     leakdetect  I u   3  20   5  0
+19       recovery  I u   3  20   5  0
+20        coulomb  I u   3  20   5  0 [   0   0  0] [   0   0  0] [  13   1  0]
+21       veh_temp  I u   3  20   5  0
+22  BUOYANCY_PUMP  -
+23        DE_PUMP  -
+24        HD_PUMP  I u   3  20   5  0
+25       thruster  I u   3  20   5  0
+devices:(t/m/s) errs:   0/   0/   0 warn:  34/   6/   1 odd: 277/  72/   4
+
+
+I heard a character ('CR'), but not the right one
+There were no pending chars in input buffer to drain.
+^R264195 20 behavior surface_4: User typed Control-R, resuming
+
+
+   I heard a Control-R
+   RESUMING MISSION
+
+264195    01030034.mcg LOG FILE CLOSED
+Doing system wide housekeeping.......
+report_heap_size(): M_FREE_HEAP=277.0K(283620 bytes)
+                    M_MIN_FREE_HEAP=195.1K(199828 bytes)
+                    M_SRAM_FREE_HEAP=2313.5K(2369040 bytes)
+                    M_SRAM_MIN_FREE_HEAP=2185.5K(2237928 bytes)
+Running algorithm to free disk space if required
+Not necessary to delete any files at this time
+Scanning free space...
+Megabytes used      on c: = 111.156250
+Megabytes available on c: = 7763.843750
+Megabytes used      on w: = 0.021973
+Megabytes available on w: = 0.978027
+Writing longterm state disk file: c:/state/longterm.sta
+   f_ocean_pressure_min(volts) 0.092640
+   m_avg_climb_rate(m/s) -0.177873
+   m_avg_speed(m/s) 0.263458
+   m_avg_upward_inflection_time(sec) 81.339717
+   m_battery(volts) 15.031354
+   m_coulomb_amphr_total(amp-hrs) 67.236068
+   m_coulomb_watt_hr_total(watt-hrs) 982.049641
+   m_iridium_call_num(nodim) 337.000000
+   m_iridium_dialed_num(nodim) 793.000000
+   m_lat(lat) 6127.509100
+   m_lon(lon) 228.117000
+   m_pump_effective_num_cycles(nodim) 417.000000
+   m_tot_ballast_pumped_energy(kjoules) 0.000000
+   m_tot_horz_dist(km) 524.424690
+   m_tot_num_inflections(nodim) 833.000000
+   m_tot_num_thermal_valve_cmd(nodim) 1078.000000
+   m_weight_drop(bool) 0.000000
+   s_water_depth_avg(m) 300.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 34.822336
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 3.349265
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 6134.490000
+   x_last_wpt_lon(lon) 217.010000
+Housekeeping is done
+264205 22 01030035.mcg LOG FILE OPENED
+264205    init_gps_input()
+264205    behavior surface_4: SUBSTATE 7 ->9 : Turning on thruster burst
+surface_4: Turning thruster on: 6.0 V.
+
+264205    sensor: c_thruster_on = 40.3224218266894 %
+264206 23 sensor: c_thruster_on = 40.3224218266894 %
+264210 24 sensor: c_thruster_on = 40.3224218266894 %
+264211    sensor: m_thruster_current = 0.2828 amp
+264214 25 sensor: c_thruster_on = 40.3224218266894 %
+264215    sensor: m_thruster_current = 0.4848 amp
+264218 26 sensor: c_thruster_on = 40.3224218266894 %
+264219    sensor: m_thruster_current = 0.3636 amp
+surface_4: Turning thruster off (secs thr on).
+264222 27 behavior surface_4: SUBSTATE 9 ->10 : Waiting for final gps fix
+surface_4: Waiting for final GPS fix.
+264227 28 disabling Iridium console...
