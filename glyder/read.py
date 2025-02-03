@@ -11,6 +11,10 @@ MasterdataDefaults = namedtuple(
     "MasterdataDefaults",
     ("sensors", "sensor_units", "behaviors", "behavior_units"),
 )
+GoToList = namedtuple(
+    "GoToList",
+    ("route", "b_args"),
+)
 
 
 def _reformat_value(unit, value):
@@ -61,29 +65,51 @@ def read_masterdata(filename=None):
     return MasterdataDefaults(sensors, sensor_units, behaviors, behavior_units)
 
 
-def read_goto(filename: str) -> pd.DataFrame:
-    """Import and parse route waypoints in a goto file.
+def read_goto_list(filename: str, filename_masterdata: str = None) -> pd.DataFrame:
+    """Import and parse route waypoints in a goto_list file.
 
     Parameters
     ----------
     filename : str
-        The file name (and file path) to the goto file.
+        The file name (and file path) to the goto_list file.
+    filename_masterdata : str, optional
+        The file name (and file path) to the masterdata file, by default None,
+        in which case the v11.01 masterdata file is used.
 
     Returns
     -------
-    pd.DataFrame
-        The route waypoints.
+    GoToList
+        A namedtuple containing the fields
+            route : pd.DataFrame
+                The route waypoints.
+            b_args : dict
+                The b_args from the file and masterdata (where not provided).
     """
+    re_b_arg = re.compile(r"b_arg: (\w*)\((\w*)\)\s*(\S*)")
     with open(filename, "r") as f:
         data = f.readlines()
+    in_b_args = False
+    b_args_user = {}
     for i, line in enumerate(data):
-        wpline = "b_arg: num_waypoints(nodim)"
-        if line.lstrip().startswith(wpline):
-            num_waypoints = int(line.lstrip().split(wpline)[1].split("#")[0])
-        elif line.strip() == "<start:waypoints>":
+        linespl = line.split("#")[0].strip()
+        if linespl == "<end:b_arg>":
+            in_b_args = False
+        if in_b_args:
+            re_b_arg_match = re_b_arg.findall(linespl)
+            if len(re_b_arg_match) > 0:
+                b_args_user[re_b_arg_match[0][0]] = _reformat_value(
+                    re_b_arg_match[0][1], re_b_arg_match[0][2]
+                )
+        if linespl == "<start:b_arg>":
+            in_b_args = True
+        elif linespl == "<start:waypoints>":
             break
-    waypoints = data[i + 1 : i + 1 + num_waypoints]
-    if num_waypoints > len(waypoints):
+    b_args = read_masterdata(filename=filename_masterdata).behaviors["goto_list"]
+    for k, v in b_args_user.items():
+        assert k in b_args, f"b_arg {k} not found in masterdata."
+        b_args[k] = v
+    waypoints = data[i + 1 : i + 1 + int(b_args["num_waypoints"])]
+    if b_args["num_waypoints"] > len(waypoints):
         raise Exception(
             "There are fewer waypoints in the list than indicated by num_waypoints."
         )
@@ -101,12 +127,12 @@ def read_goto(filename: str) -> pd.DataFrame:
         lat_spl[1].astype(float)
         + (lat_spl[2].astype(float) + lat_spl[3].astype(float) / 100) / 60
     )
-    if num_waypoints < waypoints.shape[0]:
+    if b_args["num_waypoints"] < waypoints.shape[0]:
         warnings.warn(
             "There are more waypoints in the list than indicated by num_waypoints"
-            + " - some will be ignored by the glider."
+            + " - some will be ignored by the glider and these have not been imported."
         )
-    return route
+    return GoToList(route, b_args)
 
 
 def read_log(filename: str) -> pd.DataFrame:
@@ -122,7 +148,7 @@ def read_log(filename: str) -> pd.DataFrame:
         r"^MissionName:(\w*\.mi) MissionNum:([\w-]*) \(([\w\.]*)\)$"
     )
     re_currtime = re.compile(
-        r"^Curr Time: (\w{3} \w{3} \w{1,2} \d{2}:\d{2}:\d{2} \d{4}) MT:\s*(\d*)$"
+        r"^Curr Time: (\w{3} \w{3}\s*\w{1,2} \d{2}:\d{2}:\d{2} \d{4}) MT:\s*(\d*)$"
     )
     re_gps = re.compile(
         r"^GPS Location:\s*([\d\.]*) (\w)\s*([\d\.]*) (\w) measured\s*([\d\.]*) secs ago$"

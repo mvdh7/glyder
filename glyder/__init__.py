@@ -1,7 +1,7 @@
-from .read import read_goto, read_log, read_logs, read_masterdata
+from .read import read_goto_list, read_log, read_logs, read_masterdata
 
 __all__ = [
-    "read_goto",
+    "read_goto_list",
     "read_log",
     "read_logs",
     "read_masterdata",
