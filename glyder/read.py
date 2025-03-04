@@ -139,6 +139,10 @@ def read_log(filename: str) -> pd.DataFrame:
     with open(filename, "r") as f:
         data = f.readlines()
     # Prepare regexes
+    re_sd_initial = re.compile(
+        r"^Connection Event: Carrier Detect found\..*"
+        + r"Iridium console active and ready\.\.\.$"
+    )
     re_surface_dialogue = re.compile(r"^Glider (\w*) at surface\.$")
     re_abort_history = re.compile(r"^ABORT HISTORY: total since reset: (\d*)$")
     re_because = re.compile(
@@ -168,7 +172,10 @@ def read_log(filename: str) -> pd.DataFrame:
     _sd = {}
     for line in data:
         # Start of surface dialogue
-        if re_surface_dialogue.match(line):
+        if re_sd_initial.match(line):
+            in_surface_dialogue = True
+            _sd = {"glider": ""}
+        elif re_surface_dialogue.match(line):
             in_surface_dialogue = True
             _sd = {"glider": re_surface_dialogue.findall(line)[0]}
         # End of surface dialogue
